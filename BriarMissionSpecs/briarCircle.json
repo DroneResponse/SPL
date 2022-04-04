@@ -62,13 +62,13 @@
             },
             "transitions": [
                 {
-                    "target": "BriarWaypoint",
+                    "target": "BriarTravel",
                     "condition": "succeeded_circle"
                 }
             ]
         },
         {
-            "name": "BriarWaypoint",
+            "name": "BriarTravel",
             "args": {
                 "waypoint": {
                     "latitude": 41.70573086523541,
@@ -80,6 +80,7 @@
                     "longitude": -86.24421841999177,
                     "altitude": 218.566
                 },
+                "cruising_altitude": 30,
                 "speed": 4.0
             },
             "transitions": [
